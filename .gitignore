@@ -1,0 +1,6 @@
+# PyCharm
+.idea/
+
+# python
+app/.idea/
+venv/
