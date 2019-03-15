@@ -35,9 +35,11 @@ class Post(models.Model):
         super().save(*args, **kwargs)
 
 
-
     def __str__(self):
         return self.title
+
+    class Meta:
+        ordering = ['-date_pub']
 
 
 class Tag(models.Model):
@@ -55,3 +57,6 @@ class Tag(models.Model):
 
     def __str__(self):
         return '{}'.format(self.title)
+
+    class Meta:
+        ordering = ['title']

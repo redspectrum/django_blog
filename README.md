@@ -8,6 +8,11 @@ Best blog on django.
 
 pip install -r requirements.txt
 
+install mysql
 
+## Run
 
+cd app/blogengine
+
+./manage.py runserver 8000
 
